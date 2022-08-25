@@ -2,12 +2,13 @@
 from calculator_1 import add, sub, mul, div
 
 
-if __name__ == "__main__":
+def main():
     a = 10
     b = 5
+    sign = ["+", "-", "*", "/"]
+    opc = {0: add, 1: sub, 2: mul, 3: div}
+    for i in opc:
+        print("{:d} {:} {:d} = {:d}".format(a, sign[i], b, opc[i](a, b)))
 
-print('{} {} {} = {}'.format(a, '+', b, add(a, b)))
-    print('{} {} {} = {}'.format(a, '-', b, sub(a, b)))
-    print('{} {} {} = {}'.format(a, '*', b, mul(a, b)))
-    print('{} {} {} = {}'.format(a, '/', b, div(a, b)))
-
+if __name__ == "__main__":
+    main()
