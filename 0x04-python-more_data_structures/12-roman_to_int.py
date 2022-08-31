@@ -21,6 +21,6 @@ def roman_to_int(roman_string):
         else:
             res += n
 
-            previous = n
+        previous = n
 
-            return res
+    return res

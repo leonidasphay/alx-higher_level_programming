@@ -13,6 +13,6 @@ def best_score(a_dictionary):
                 max_v = a_dictionary[k]
                 key = k
 
-                return key
+        return key
 
-            return key
+    return key
