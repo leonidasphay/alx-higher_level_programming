@@ -1,0 +1,1 @@
+py every is obj
