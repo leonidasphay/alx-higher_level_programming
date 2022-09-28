@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module for task 10'''
+'''Module for task 8'''
 
 
 def class_to_json(obj):

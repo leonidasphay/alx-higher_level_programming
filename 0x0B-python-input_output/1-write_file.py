@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module for task 3'''
+'''Module for task 1'''
 
 
 def write_file(filename="", text=""):

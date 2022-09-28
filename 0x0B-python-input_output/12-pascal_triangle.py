@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module for task 14'''
+'''Module for task 12'''
 
 
 def pascal_triangle(n):

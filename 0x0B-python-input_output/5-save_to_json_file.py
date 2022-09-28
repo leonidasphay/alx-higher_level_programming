@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module for task 7'''
+'''Module for task 5'''
 import json
 
 

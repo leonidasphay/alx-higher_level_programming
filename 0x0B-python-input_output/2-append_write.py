@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Module for task 4'''
+'''Module for task 2'''
 
 
 def append_write(filename="", text=""):
